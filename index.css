@@ -1,0 +1,48 @@
+.wrap{
+    max-width: 640px;
+    margin: 0 auto;
+}
+.hot{
+    display: flex;
+    margin-bottom: 24px;
+}
+.hot-list{
+    margin-right: 20px;
+}
+.hot-msg{
+    display: flex;
+}
+.hot-msg img{
+    margin-right: 20px;
+}
+.c-img{
+    display: block;
+}
+.c-img--small{
+    width: 96px;
+    height: 96px;
+}
+.c-img--big{
+    width: 216px;
+    height: 216px;
+}
+.hot-item span{
+    font-size:20px; line-height:1.2
+}
+.hot-item p{
+    font-size:16px; line-height:1.5
+}
+.hot-msg{
+    margin-bottom: 24px;
+}
+.hot-msg:last-child{
+    margin-bottom: 0;
+}
+.footer{
+    padding: 48px 0;
+    text-align: center;
+}
+.footer > p{
+    font-size:16px;
+    line-height:1.5;
+}
